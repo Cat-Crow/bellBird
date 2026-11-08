@@ -1,0 +1,38 @@
+Categories:
+  - Time
+License: GPL-3.0-only
+AuthorName: Regina Nockers
+SourceCode: https://github.com/Cat-Crow/bellBird
+IssueTracker: https://github.com/Cat-Crow/bellBird/issues
+
+AutoName: bellBird
+
+Summary: Recurring bell chimes for mindfulness and time awareness
+Description: |-
+  bellBird plays synthesized bell tones on two independent configurable timers
+  to help you stay aware of time passing — useful for meditation, focus
+  sessions, or general mindfulness.
+
+  Features:
+
+  * Two independent timers (primary and secondary) with configurable intervals
+  * Five synthesized tones: Soft Bell, High Bell, Deep Bell, Double Chime, Bowl
+  * Volume control per timer (0–200%)
+  * Quiet hours with overnight wrap-around support
+  * Do Not Disturb integration with optional override
+  * Optional vibration
+  * Two colour themes: Flamingo and Indigo Bunting
+  * No internet access, no tracking, no ads
+
+RepoType: git
+Repo: https://github.com/Cat-Crow/bellBird
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags

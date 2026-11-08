@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Same light scheme in dark mode — consistent appearance regardless of system setting -->
+    <style name="Base.Theme.Chime" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/blush</item>
+        <item name="colorOnPrimaryContainer">@color/midnight</item>
+        <item name="colorSecondary">@color/slate</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/tangerine</item>
+        <item name="colorOnSecondaryContainer">@color/midnight</item>
+        <item name="colorTertiary">@color/mauve</item>
+        <item name="colorOnTertiary">@color/midnight</item>
+        <item name="colorTertiaryContainer">@color/blush</item>
+        <item name="colorOnTertiaryContainer">@color/midnight</item>
+        <item name="android:colorBackground">@color/offwhite</item>
+        <item name="colorSurface">@color/blush</item>
+        <item name="colorOnSurface">@color/midnight</item>
+        <item name="colorSurfaceVariant">@color/blush</item>
+        <item name="colorOnSurfaceVariant">@color/slate</item>
+        <item name="android:textColorPrimary">@color/midnight</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+        <item name="android:textColorHint">@color/mauve</item>
+    </style>
+
+    <style name="Theme.Chime" parent="Base.Theme.Chime" />
+</resources>

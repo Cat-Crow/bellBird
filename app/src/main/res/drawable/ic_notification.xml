@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!--
+        Head: center (12,12) r=7.5. Beak attaches at y=9.75 and y=14.25
+        (35% of diameter = 4.5dp tall), tip x=23 (3.5dp protrusion from circle edge).
+        Both attachment points lie on the circle boundary.
+        Neck: 4dp wide (27% of 15dp diameter), starts at y=17 (inside circle base).
+        Eye: center exactly (12,12), r=3.75 (50% of head radius).
+        Pupil: center (13,12.7), r=1.5 (40% of eye radius), offset right+down.
+    -->
+
+    <!-- Head with eye hole -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M12,4.5 A7.5,7.5 0 1,0 12,19.5 A7.5,7.5 0 1,0 12,4.5z
+                          M12,8.25 A3.75,3.75 0 1,0 12,15.75 A3.75,3.75 0 1,0 12,8.25z"/>
+
+    <!-- Beak: 5dp tall (33% of diameter), tip 3.5dp past circle edge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19,9.5 L23,12 L19,14.5 Z"/>
+
+    <!-- Neck -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,17 H14 V21.5 H10 Z"/>
+
+    <!-- Pupil: right of eye center, same height (not lower) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12.8,10.5 A1.5,1.5 0 1,0 12.8,13.5 A1.5,1.5 0 1,0 12.8,10.5z"/>
+
+</vector>

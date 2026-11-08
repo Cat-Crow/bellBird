@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Chime" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/mauve</item>
+        <item name="colorOnPrimaryContainer">@color/midnight</item>
+        <item name="colorSecondary">@color/slate</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/tangerine</item>
+        <item name="colorOnSecondaryContainer">@color/midnight</item>
+        <item name="colorTertiary">@color/mauve</item>
+        <item name="colorOnTertiary">@color/midnight</item>
+        <item name="colorTertiaryContainer">@color/pink</item>
+        <item name="colorOnTertiaryContainer">@color/white</item>
+        <item name="android:colorBackground">@color/offwhite</item>
+        <item name="colorSurface">@color/blush</item>
+        <item name="colorOnSurface">@color/midnight</item>
+        <item name="colorSurfaceVariant">@color/blush</item>
+        <item name="colorOnSurfaceVariant">@color/slate</item>
+        <item name="android:textColorPrimary">@color/midnight</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+        <item name="android:textColorHint">@color/mauve</item>
+        <item name="appColorBorder">@color/rose</item>
+        <item name="appColorSectionHeader">@color/tangerine_dark</item>
+        <item name="appColorCardBackground">@color/blush</item>
+    </style>
+
+    <style name="Theme.Chime" parent="Base.Theme.Chime" />
+
+    <style name="Theme.Chime.IndigoBunting" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/ib_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/ib_accent</item>
+        <item name="colorOnPrimaryContainer">@color/ice</item>
+        <item name="colorSecondary">@color/ib_dim_grey</item>
+        <item name="colorOnSecondary">@color/midnight</item>
+        <item name="colorSecondaryContainer">@color/ib_accent</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+        <item name="colorTertiary">@color/ib_dim_grey</item>
+        <item name="colorOnTertiary">@color/midnight</item>
+        <item name="colorTertiaryContainer">@color/ib_accent_light</item>
+        <item name="colorOnTertiaryContainer">@color/midnight</item>
+        <item name="android:colorBackground">@color/midnight</item>
+        <item name="colorSurface">@color/ib_dark_surface</item>
+        <item name="colorOnSurface">@color/offwhite</item>
+        <item name="colorSurfaceVariant">@color/ib_dark_surface</item>
+        <item name="colorOnSurfaceVariant">@color/ib_dim_grey</item>
+        <item name="android:textColorPrimary">@color/offwhite</item>
+        <item name="android:textColorSecondary">@color/ib_dim_grey</item>
+        <item name="android:textColorHint">@color/slate</item>
+        <item name="appColorBorder">@color/ib_accent</item>
+        <item name="appColorSectionHeader">@color/ib_accent_light</item>
+        <item name="appColorCardBackground">@color/ib_dark_surface</item>
+    </style>
+</resources>

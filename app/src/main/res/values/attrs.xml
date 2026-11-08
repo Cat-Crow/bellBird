@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appColorBorder" format="color" />
+    <attr name="appColorSectionHeader" format="color" />
+    <attr name="appColorCardBackground" format="color" />
+</resources>

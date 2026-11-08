@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Bell Anarchy palette -->
+    <color name="pink">#F72585</color>
+    <color name="blush">#F7EBEC</color>
+    <color name="mauve">#DDBDD5</color>
+    <color name="slate">#59656F</color>
+    <color name="midnight">#1D1E2C</color>
+    <color name="offwhite">#F0EEEE</color>
+    <color name="tangerine">#F2824C</color>
+    <color name="tangerine_dark">#A85120</color>
+    <color name="rose">#750244</color>
+
+    <!-- Surface and container colors -->
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Indigo Bunting palette -->
+    <color name="indigo">#084887</color>
+    <color name="navy">#042D52</color>
+    <color name="ice">#E5EFF8</color>
+    <color name="ice_white">#EEF4FA</color>
+    <color name="sky">#1976D2</color>
+    <color name="powder_blue">#B8D4ED</color>
+
+    <!-- Indigo Bunting dark theme -->
+    <color name="ib_accent">#006CA9</color>
+    <color name="ib_accent_light">#4BA8D2</color>
+    <color name="ib_dark_surface">#252636</color>
+    <color name="ib_dim_grey">#8A9299</color>
+</resources>
