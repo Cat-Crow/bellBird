@@ -20,12 +20,5 @@ Android 8.0 (Oreo) or later.
 Installation
 Download the latest APK from the Releases (https://github.com/Cat-Crow/bellBird/releases) page and sideload it. On your device, enable Install from unknown sources for your browser or file manager, then open the downloaded file.
 
-
-Building from source
-
-git clone https://github.com/Cat-Crow/bellBird.git
-cd bellBird
-./gradlew assembleDebug
-
 License
 Copyright (C) 2026 Regina Nockers. Licensed under the GNU General Public License v3.0 (LICENSE).
